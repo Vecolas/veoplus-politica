@@ -20,8 +20,8 @@ instalou.
 
 ## Documentos
 
-- [Política de Privacidade](privacidade.html)
-- [Termos de Uso](termos.html)
+- [Política de Privacidade](privacidade.html) ([English](privacy.html))
+- [Termos de Uso](termos.html) ([English](terms.html))
 
 ## Contato
 

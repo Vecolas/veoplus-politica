@@ -16,6 +16,23 @@ Este documento existe para cumprir a exigência dos [Termos de Serviço dos
 Serviços de API do YouTube][tos] e descreve exatamente o que o programa faz
 com dados.
 
+*English version: [Privacy Policy](privacy.html).*
+
+## Resumo dos dados de usuário do Google
+
+| Pergunta | Resposta |
+|---|---|
+| Que dados de usuário do Google o Veo+ acessa? | O token OAuth do canal autorizado e o nome, a foto e o identificador desse canal (escopo `youtube.readonly`). Com o escopo `youtube.upload`, envia vídeos e miniaturas; não lê vídeos, comentários, métricas nem dados de outros canais. |
+| Como esses dados são usados? | Somente para enviar ao canal do próprio usuário os vídeos que ele mandou enviar e para mostrar na interface qual canal está conectado. Não são usados para publicidade, perfilamento, venda ou treinamento de modelos de IA. |
+| Onde são armazenados? | Apenas no computador do usuário, na pasta do perfil do Veo+. Nada é enviado à Vecola Productions nem a servidores dela. |
+| Com quem são compartilhados? | Com ninguém. Só trafegam entre o computador do usuário e o Google. |
+| Por quanto tempo ficam guardados e como apagar? | Até o usuário desconectar o canal (o Veo+ revoga a permissão no Google e apaga o token) ou apagar a pasta do perfil. Também é possível revogar em myaccount.google.com/permissions. |
+
+**Uso Limitado:** o uso e a transferência, para qualquer outro aplicativo, de
+informações recebidas das APIs do Google pelo Veo+ seguem a [Política de Dados
+do Usuário dos Serviços de API do Google][limited-use], incluindo os requisitos
+de Uso Limitado.
+
 ## 1. Quem trata os dados
 
 O próprio usuário, no computador dele. Quem instala e executa o Veo+ é o
@@ -106,3 +123,4 @@ Dúvidas e pedidos relacionados a dados: abra uma issue em
 [tos]: https://developers.google.com/youtube/terms/api-services-terms-of-service
 [termos-yt]: https://www.youtube.com/t/terms
 [privacidade-google]: https://policies.google.com/privacy
+[limited-use]: https://developers.google.com/terms/api-services-user-data-policy
